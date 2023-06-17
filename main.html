@@ -1,20 +1,21 @@
 <!Doctype html>
-<html>
+<html lang="pt-br">
     <head>
         <title>Proerd Digital</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
         <meta name="keywords" content="Internet, jogos, vícios ">
-        <meta http-equiv="refresh" content="50;url=">
         <meta name="description" content="">
         <meta name="author" content="Leonardo Girardi">
         <meta name="application-name" content="Vícios">
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body>
+    <body> 
         <header>
             <nav>
-                <ul>
+                <ul><a href="main.html">
+                        <img src="img/[removal.ai]_tmp-6487c2adaad10.png" alt=""></a>
                     <li><a href="main.html"><h1>Proerd Digital</h1></a></li>
                     <li><a href="topics/redes_sociais/redes_sociais.html"><h1>Redes Sociais</a></li>
                     <li><a href="topics/streaming/streaming.html"><h1>Streaming</h1></a></li>
@@ -22,27 +23,84 @@
                 </ul>        
             </nav> 
         </header>
-        <main>
-            <div>
-                <img src="" alt="">
-                Descrição do Site e imagem tema 
+        <div class="content">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">        
+                <input type="radio" name="slide" id="slide4">        
+
+
+                <div class="slide s1">
+                    <img src="https://decisaosistemas.com.br/wp-content/uploads/2021/06/tecnologia-na-gestao-das-empresas.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://img.freepik.com/fotos-gratis/homem-tiro-medio-usando-oculos-vr_23-2149126949.jpg?w=900&t=st=1686964110~exp=1686964710~hmac=7831958c7ac38c0ba3d5ab412138b8bcc6fe14792903d4b154c2905ccba82f98" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://img.freepik.com/fotos-gratis/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador_23-2150010138.jpg?w=740&t=st=1686964230~exp=1686964830~hmac=70a14766fb43fac37a6bd23e0d0a9c0d051234f0c0609426bb8cbe531f7e1eaf" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://img.freepik.com/fotos-gratis/pessoa-trabalhando-html-no-computador_23-2150038860.jpg?w=740&t=st=1686964275~exp=1686964875~hmac=13be28bf165fb270727ad800f5873f4b181437c0fd50ea6ce08e7f32fc3d2c35" alt="">
+                </div>
             </div>
-            <section>
-                <h2>Por onde começar</h2>
-                <div class="relevant">
-                    <a href="topics/redes_sociais/artigos/artigo1.html">Como as Redes Hackeiam sua Mente</a>
+
+            <div class="navigation">
+                <label class="bar" for="slide1"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+                <label class="bar" for="slide4"></label>
+            </div>
+        </div>
+        <section>
+            <h2>Por onde começar</h2>
+
+            <div class="relevant">
+
+                <div class="article">
+                    <a
+                        href="topics/redes_sociais/artigos/artigo1.html"><h3>Como
+                            as Redes Hackeiam sua Mente</h3>
+                        <img class="topic_img"
+                        src="https://gracaemflor.com/wp-content/uploads/2021/10/georgia-de-lotz-CiSizRTO8U8-unsplash-scaled-e1633369882744.jpg"
+                        alt="">  
+                    </a>
                 </div>
-                <div class="relevant">
-                    <a href="topics/games/artigos/artigo1.html">Games e Saúde Mental</a>                
+                <div class="article">
+                    <a href="topics/games/artigos/artigo1.html"> <h3>Games
+                            e Saúde Mental</h3>
+                        <img class="topic_img" src="https://portalhospitaisbrasil.com.br/wp-content/uploads/2022/07/saude-cyber.jpg" alt="">
+
+                    </a>                
                 </div>
-                <div class="relevant">
-                    <a href="topics/streaming/artigos/artigo1.html">Pirataria no Streaming</a>
+                <div class="article">
+                    <a
+                        href="topics/streaming/artigos/artigo1.html"><h3>Pirataria
+                            no Streaming</h3>
+                        <img class="topic_img" src="https://files.meiobit.com/wp-content/uploads/2019/02/20190212pirates-1693519_1280.jpg" alt="">
+
+                    </a>
                 </div>
-            </section>
-            <div>
-        </main>
+            </div>
+        </section>
         <footer>
-            <p>&copy; 2023 IFPR- Sistemas de Informação. Todos os direitos reservados.</p>
+            <div class="footer-content">
+                <h3>Proerd Digital</h3>
+                <p>"Se tornou aparentemente óbvio que nossa tecnologia excedeu nossa humanidade.”
+                Albert Einstein, cientista alemão.
+                </p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2023 Proerd Digital. designed by
+                <span>Leonardo Girardi</span></p>
+            </div>
         </footer>
     </body>
 </html>
